@@ -1,0 +1,16 @@
+{
+  "name": "waf-demo-service",
+  "version": "1.0.0",
+  "description": "API de démonstration ShopSecure pour Azure App Gateway + WAF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
